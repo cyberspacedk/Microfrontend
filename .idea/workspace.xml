@@ -2,13 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ef7f09a7-644e-45a4-8b44-11a30fe88fd9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/container/public/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/container/src/bootstrap.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/container/src/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/container/webpack.config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/products/public/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/products/src/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/products/webpack.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,7 +38,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1609260818401</updated>
-      <workItem from="1609260819535" duration="8222000" />
+      <workItem from="1609260819535" duration="8887000" />
     </task>
     <servers />
   </component>
