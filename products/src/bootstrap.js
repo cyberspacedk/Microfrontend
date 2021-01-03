@@ -1,12 +1,25 @@
 import faker from 'faker';
 
-let products = '';
-let times = 3;
+const mount = (element) => {
+    let products = '';
+    let times = 3;
 
-while(times){
-    const name = faker.commerce.productName();
-    products += `<div>${name}</div>`;
-    times--;
+    while(times--){
+        const name = faker.commerce.productName();
+        products += `<div>${name}</div>`;
+    }
+
+    element.innerHTML = products;
 }
 
-document.querySelector('#dev-products').innerHTML = products;
+//Case for isolation
+if(process.env.NODE_ENV === 'development'){
+    const element = document.querySelector('#dev-products');
+
+    if(element){
+        mount(element)
+    }
+}
+
+//Case for sharing
+export { mount }
